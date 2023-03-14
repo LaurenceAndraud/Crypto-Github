@@ -18,7 +18,6 @@ from crypto_app.caesarcipher_algo import CaesarCipher
 from crypto_app.des_algo import DES
 from crypto_app.md5_algo import MD5
 from crypto_app.rsa_algo import RSAAlgo
-from crypto_app.sha_algo import SHA
 from crypto_app.vigenerecipher_algo import VigenereCipher
 
 
@@ -117,19 +116,7 @@ def test_caesar():
 
     assert decrypted == msg
 
-#test#
 
-def sha():
-
-    sha = SHA
-    msg = "message"
-    key = 4
-    expected_encryption = "gdecvfs"
-
-    encrypted = sha.encrypt(msg, key)
-    decrypted = sha.decrypt(encrypted, key)
-
-    assert decrypted == msg
 
 #######################################################################
 # À vous d'écrire entièrement les tests restants. Quelques conseils :
