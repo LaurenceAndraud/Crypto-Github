@@ -36,7 +36,7 @@ jobs:
           pip install -r requirements.txt
         # Run the tests
       - name: Run tests
-        run: pytest test_files.py test_sha.py test_des.py
+        run: pytest test_files.py test_sha.py test_des.py test_md5.py
 
       # Generate badges for readMe
       - name: Generate badges
