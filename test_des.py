@@ -4,7 +4,7 @@ def test_des_encrypt():
 
     des_obj = DES()
     msg = "message"
-    key = "secretke"
+    key = "secretkey"
 
     encrypted_msg = des_obj.encrypt(msg, key)
     decrypted_msg = des_obj.decrypt(encrypted_msg, key)
