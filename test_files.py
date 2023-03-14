@@ -119,13 +119,6 @@ def test_caesar():
 
 #test#
 
-def des():
-
-    des = DES
-    msg = "message"
-    key = 2
-    expected_encryption = ""
-
 def sha():
 
     sha = SHA
