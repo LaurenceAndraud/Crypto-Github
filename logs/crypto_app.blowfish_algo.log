@@ -1,0 +1,5 @@
+2023-03-09 16:33:56,992 - ERROR - crypto_app.blowfish_algo - Error during the decryption of a message with Blowfish. The key must be between 4 and 56 bytes long
+2023-03-09 16:40:04,459 - ERROR - crypto_app.blowfish_algo - Error during the decryption of a message with Blowfish. The key must be between 4 and 56 bytes long
+2023-03-09 16:49:24,207 - ERROR - crypto_app.blowfish_algo - Error during the decryption of a message with Blowfish. The key must be between 4 and 56 bytes long
+2023-03-09 16:49:45,835 - ERROR - crypto_app.blowfish_algo - Error during the decryption of a message with Blowfish. The key must be between 4 and 56 bytes long
+2023-03-09 16:54:04,506 - ERROR - crypto_app.blowfish_algo - Error during the decryption of a message with Blowfish. The key must be between 4 and 56 bytes long
