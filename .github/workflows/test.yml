@@ -36,4 +36,4 @@ jobs:
           pip install -r requirements.txt
         # Run the tests
       - name: Run tests
-        run: pytest test_files.py
+        run: pytest test_files.py, test_sha.py
