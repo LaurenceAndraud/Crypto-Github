@@ -10,4 +10,3 @@ def test_des_encrypt():
     decrypted_msg = des_obj.decrypt(encrypted_msg, key)
 
     assert decrypted_msg == msg
-

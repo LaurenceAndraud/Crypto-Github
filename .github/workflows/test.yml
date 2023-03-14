@@ -37,3 +37,7 @@ jobs:
         # Run the tests
       - name: Run tests
         run: pytest test_files.py test_sha.py test_des.py
+
+      # Generate badges for readMe
+      - name: Generate badges
+        run: curl https://img.shields.io/github/workflow/status/LaurenceAndraud/Crypto-Github/test?label=tests&logo=github&style=flat-square > tests.svg
